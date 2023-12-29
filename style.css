@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Open Sans',
+            sans-serif;
+        background-color: #f3a683;
+}
+
+
+
+.main {
+    width: 400px;
+        padding: 20px;
+        margin-left: 33%;
+        margin-top: 10rem;
+        height: 200px;
+        text-align: center;
+        border-radius: 3px;
+}
+
+
+
+.main h1 {
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+#inp {
+    padding: 8px;
+    margin: auto;
+    width: 18rem;
+    border: none;
+    outline: none;
+
+    border-radius: 4px;
+    background-color: peachpuff;
+    font-size: 15px;
+}
+
+button {
+    padding: 7px;
+    margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: peachpuff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+#todo-text ul {
+    position: relative;
+    border-radius: 3px;
+    padding: 50px;
+    width: 351px;
+    text-align: left;
+    font-size: 15px;
+    background-color: peachpuff;
+    padding: 6px;
+    margin-top: 14px;
+    margin-left: 5px
+}
+
+#todo-text ul i {
+    margin-left: 90%;
+    cursor: pointer;
+}
